@@ -28,6 +28,18 @@ ueRoutingInfo:
         UPF: !!seq
           - BranchingUPF
           - AnchorUPF2
+  - SUPI: imsi-2089300007485
+    AN: 10.200.200.102
+    PathList:
+      - DestinationIP: 10.0.0.10
+        UPF: !!seq
+          - BranchingUPF
+          - AnchorUPF1
+
+      - DestinationIP: 10.0.0.11
+        UPF: !!seq
+          - BranchingUPF
+          - AnchorUPF2
 
 routeProfile:
   MEC1:
